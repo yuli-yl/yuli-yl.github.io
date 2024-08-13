@@ -88,6 +88,8 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 
 .navbar-toggler.collapsed .bottom-bar { transform: rotate(0); }
 
+.news { padding-top:56px; }
+
 .news table td { font-size: 1rem; color: var(--global-text-color); }
 
 .news table th { color: var(--global-text-color); }
