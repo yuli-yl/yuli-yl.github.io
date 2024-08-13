@@ -156,7 +156,10 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .projects h2.category { color: #e8e8e8; border-bottom: 1px solid #e8e8e8; padding-top: 0.5rem; margin-top: 2rem; margin-bottom: 1rem; text-align: right; }
 
-.publications { margin-top: 2rem; }
+/* .publications { margin-top: 2rem; }
+
+ */
+.publications { margin-top: 30px; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
