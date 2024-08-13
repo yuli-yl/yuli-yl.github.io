@@ -159,7 +159,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 /* .publications { margin-top: 2rem; }
 
  */
-.publications { margin-top: 30px; }
+.publications { padding-top: 30px; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 
