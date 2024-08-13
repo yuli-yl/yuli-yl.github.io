@@ -15,7 +15,7 @@ html[data-theme='dark'] .fa-moon { display: none; }
 /****************************************************************************** Content */
 body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
 
-body.fixed-top-nav { padding-top: 56px; font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif, 'SimSun', 'KaiTi', 'Microsoft YaHei'; }
+body.fixed-top-nav { padding-top: 50px; font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif, 'SimSun', 'KaiTi', 'Microsoft YaHei'; }
 
 body.sticky-bottom-footer { padding-bottom: 0; }
 
