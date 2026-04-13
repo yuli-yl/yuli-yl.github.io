@@ -354,6 +354,12 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-h
   font-size: 0.92rem;
 }
 
+.recruiting-postdoc {
+  background: rgba(0, 118, 223, 0.13);
+  border-left: 4px solid var(--global-theme-color);
+  font-size: 0.95rem;
+}
+
 @media (max-width: 575px) {
   .profile-section {
     flex-direction: column;
