@@ -230,14 +230,14 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 .publications ol.bibliography li .links a.btn:hover,
 .publications ul.bibliography li .links a.btn:hover { text-decoration: none; }
 
-.btn-paper  { color: #fff !important; background-color: #c0392b !important; border-color: #c0392b !important; }
-.btn-paper:hover  { background-color: #a93226 !important; border-color: #a93226 !important; }
-.btn-code   { color: #fff !important; background-color: #27ae60 !important; border-color: #27ae60 !important; }
-.btn-code:hover   { background-color: #219a52 !important; border-color: #219a52 !important; }
-.btn-web    { color: #fff !important; background-color: var(--global-theme-color) !important; border-color: var(--global-theme-color) !important; }
-.btn-web:hover    { opacity: 0.85; }
-.btn-media  { color: #fff !important; background-color: #07c160 !important; border-color: #07c160 !important; }
-.btn-media:hover  { background-color: #06a84f !important; border-color: #06a84f !important; }
+.btn-paper  { color: #b03a2e !important; background-color: #fdf2f1 !important; border-color: #e8a89e !important; }
+.btn-paper:hover  { color: #fff !important; background-color: #b03a2e !important; border-color: #b03a2e !important; }
+.btn-code   { color: #1e7a45 !important; background-color: #f1faf4 !important; border-color: #8ec9a1 !important; }
+.btn-code:hover   { color: #fff !important; background-color: #1e7a45 !important; border-color: #1e7a45 !important; }
+.btn-web    { color: #0060b8 !important; background-color: #f0f6ff !important; border-color: #89b8e8 !important; }
+.btn-web:hover    { color: #fff !important; background-color: #0060b8 !important; border-color: #0060b8 !important; }
+.btn-media  { color: #05874a !important; background-color: #f0faf5 !important; border-color: #7dcca4 !important; }
+.btn-media:hover  { color: #fff !important; background-color: #05874a !important; border-color: #05874a !important; }
 
 .publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 
