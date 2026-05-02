@@ -1,21 +1,31 @@
-// Script is deferred, so DOM is ready when this runs
-const mode_toggle = document.getElementById("light-toggle");
-
-if (mode_toggle) {
-    mode_toggle.addEventListener("click", function() {
-        const current = localStorage.getItem("theme");
-        setTheme(current === "dark" ? "light" : "dark");
-    });
+// Deferred — DOM is ready when this runs
+var toggle = document.getElementById("light-toggle");
+if (toggle) {
+  toggle.addEventListener("click", function() {
+    var isDark = document.documentElement.getAttribute("data-theme") === "dark";
+    if (isDark) {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+    }
+    // Smooth transition
+    document.documentElement.classList.add("transition");
+    setTimeout(function() {
+      document.documentElement.classList.remove("transition");
+    }, 500);
+  });
 }
 
-function setTheme(theme) {
-    document.documentElement.classList.add("transition");
-    setTimeout(() => document.documentElement.classList.remove("transition"), 500);
-
-    if (theme === "dark") {
-        document.documentElement.setAttribute("data-theme", "dark");
-    } else {
-        document.documentElement.removeAttribute("data-theme");
-    }
-    localStorage.setItem("theme", theme || "light");
+// Navbar toggle (replaces Bootstrap JS dependency)
+var navToggler = document.querySelector('.navbar-toggler');
+var navCollapse = document.getElementById('navbarNav');
+if (navToggler && navCollapse) {
+  navToggler.addEventListener("click", function() {
+    navCollapse.classList.toggle("show");
+    var expanded = navCollapse.classList.contains("show");
+    navToggler.setAttribute("aria-expanded", expanded);
+    navToggler.classList.toggle("collapsed", !expanded);
+  });
 }

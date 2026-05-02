@@ -1,9 +1,16 @@
-$(document).ready(function() {
-    $('a.abstract').click(function() {
-        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+// Vanilla JS replacement for jQuery-dependent common.js
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('a.abstract').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var hidden = el.closest('li').querySelector('.abstract.hidden');
+      if (hidden) hidden.classList.toggle('open');
     });
-    $('a.bibtex').click(function() {
-        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+  });
+
+  document.querySelectorAll('a.bibtex').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var hidden = el.closest('li').querySelector('.bibtex.hidden');
+      if (hidden) hidden.classList.toggle('open');
     });
-    $('.navbar-nav').find('a').removeClass('waves-effect waves-light');
+  });
 });

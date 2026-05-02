@@ -858,3 +858,26 @@ html[data-theme='dark'] .blog-card:hover {
 html[data-theme='dark'] .blog-post-header {
   border-bottom-color: rgba(255,255,255,0.1);
 }
+
+.blog-coming-soon {
+  text-align: center;
+  padding: 5rem 1rem;
+  color: var(--global-text-color);
+}
+
+.blog-coming-soon-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.blog-coming-soon h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.blog-coming-soon p {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
