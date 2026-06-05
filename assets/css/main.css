@@ -881,3 +881,22 @@ html[data-theme='dark'] .blog-post-header {
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
+
+/* Research topic tags */
+.research-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.3rem 0 0.8rem;
+}
+
+.research-topic {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  background: rgba(0, 118, 223, 0.06);
+  letter-spacing: 0.02em;
+}
