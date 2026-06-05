@@ -343,7 +343,15 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-h
   font-weight: 500;
   color: var(--global-text-color-light);
   margin-top: 0;
+  margin-bottom: 0.1rem;
+}
+
+.profile-interests {
+  font-size: 0.88rem;
+  color: var(--global-theme-color);
+  margin-top: 0;
   margin-bottom: 0.8rem;
+  font-style: italic;
 }
 
 .recruiting-notice {
